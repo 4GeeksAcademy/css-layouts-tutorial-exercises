@@ -8,6 +8,8 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
+Welcome to the CSS Layouts interactive tutorial, during this series of exercises you will learn and practice:
+
 1. Display vs Position
 2. Display: Flex property.
 3. Float property.
