@@ -1,0 +1,23 @@
+body {
+	background: blue;
+}
+#firstDiv {
+	background: blue;
+	width: 100px;
+	height: 100px;
+}
+#secondDiv {
+	background: yellow;
+	width: 100px;
+	height: 100px;
+}
+.absolutePositionExample {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.relativePositionExample {
+	position: relative;
+	top: 20px;
+	left: 20px;
+}

@@ -11,11 +11,11 @@
     "outputPath": "./.learn/dist",
     "publicPath": "/preview",
     "grading": "isolated",
-    "ignoreRegex": null,
+    "ignoreRegex": {},
     "webpack_template": null,
     "disable_grading": false,
     "onCompilerSuccess": "open-browser",
-    "language": "vanillajs",
+    "language": "css",
     "compiler": "webpack",
     "tester": "jest",
     "actions": [
@@ -23,12 +23,7 @@
         "test",
         "reset"
     ],
-    "difficulty": "beginner",
-    "duration": 8,
-    "description": "Learn how create the most typical layouts in a CSS website.",
-    "title": "Doing Layouts with CSS",
-    "slug": "doing-layouts-with-css",
-    "session": 4323925731722302500,
+    "session": 7233798874468879000,
     "exercises": [
         {
             "slug": "01-introduction",
@@ -45,7 +40,109 @@
             "title": "02-Display-none",
             "done": false,
             "path": "exercises/02-Display-none",
-            "translations": [],
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "03-Position-relative-vs-absolute",
+            "title": "03-Position-relative-vs-absolute",
+            "done": false,
+            "path": "exercises/03-Position-relative-vs-absolute",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "04-Move-image-behind-the-text",
+            "title": "04-Move-image-behind-the-text",
+            "done": false,
+            "path": "exercises/04-Move-image-behind-the-text",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "05-Float-example",
+            "title": "05-Float-example",
+            "done": false,
+            "path": "exercises/05-Float-example",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "06-center-content",
+            "title": "06-center-content",
+            "done": false,
+            "path": "exercises/06-center-content",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "07-Sidebar",
+            "title": "07-Sidebar",
+            "done": false,
+            "path": "exercises/07-Sidebar",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "08-Split-Screen-in-three",
+            "title": "08-Split-Screen-in-three",
+            "done": false,
+            "path": "exercises/08-Split-Screen-in-three",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09-Beautify",
+            "title": "09-Beautify",
+            "done": false,
+            "path": "exercises/09-Beautify",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09-Before-and-After",
+            "title": "09-Before-and-After",
+            "done": false,
+            "path": "exercises/09-Before-and-After",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09.2-Calendar-icon",
+            "title": "09.2-Calendar-icon",
+            "done": false,
+            "path": "exercises/09.2-Calendar-icon",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "10-static-layout",
+            "title": "10-static-layout",
+            "done": false,
+            "path": "exercises/10-static-layout",
+            "translations": [
+                "us"
+            ],
             "graded": false
         }
     ]
