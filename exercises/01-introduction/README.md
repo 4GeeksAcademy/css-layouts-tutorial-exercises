@@ -1,25 +1,10 @@
-# Hello World
+# Welcome to Layouts
 
-You can have just a README file and it will be like a page in a book, no code files.
+During this lesson you will learn:
 
-You can also add a `README.[lang].md` file for translations, for example: `README.es.md` for spanish.
-
-## Video compatibility
-
-If you want to include some video introduction for each exercise, add a `intro` property in the markdown frontmatter of the README.md for that particular exercise:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
-
-You can also add a video solution for each exercise by adding a `tutorial` property on the markdown frontmatter of it's README.md:
-
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+1. Display vs Position
+2. Display: Flex property.
+3. Float property.
+4. Center Content.
+5. Sidebar Layouts.
+6. Using before and after.
