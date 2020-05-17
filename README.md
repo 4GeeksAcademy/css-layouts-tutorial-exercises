@@ -1,7 +1,5 @@
 # CSS Layouts Exercises
 
-<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/Interactive-Tutorials/006d393c5ec5e1acb65852535ac205b8c3668219/badge.svg"></a>
-
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/css-layouts-tutorial-exercises)
