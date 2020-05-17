@@ -45,7 +45,7 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 ```sh
 $ npm i jest@24.8.0 -g
 $ cd ./css-layouts-tutorial-exercises
-$ breathecode run
+$ learnpack run
 ```
 
 <p align="center">
