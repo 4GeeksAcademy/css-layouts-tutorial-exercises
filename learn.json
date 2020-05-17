@@ -1,0 +1,52 @@
+{
+    "port": 3000,
+    "address": "https://ba56b6a3-d8ca-4213-be0f-357dc1073544.ws-us02.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "learn.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
+    "language": "vanillajs",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
+    "difficulty": "beginner",
+    "duration": 8,
+    "description": "Learn how create the most typical layouts in a CSS website.",
+    "title": "Doing Layouts with CSS",
+    "slug": "doing-layouts-with-css",
+    "session": 4323925731722302500,
+    "exercises": [
+        {
+            "slug": "01-introduction",
+            "title": "01-introduction",
+            "done": false,
+            "path": "exercises/01-introduction",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "02-Display-none",
+            "title": "02-Display-none",
+            "done": false,
+            "path": "exercises/02-Display-none",
+            "translations": [],
+            "graded": false
+        }
+    ]
+}
