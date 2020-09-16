@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://ba56b6a3-d8ca-4213-be0f-357dc1073544.ws-us02.gitpod.io",
+    "address": "https://eb7c13c8-3bbe-4f2b-8bf5-8d205235a675.ws-us02.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "learn.json",
@@ -31,6 +31,7 @@
             "done": false,
             "path": "exercises/01-introduction",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -41,6 +42,7 @@
             "done": false,
             "path": "exercises/02-Display-none",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -51,6 +53,7 @@
             "done": false,
             "path": "exercises/03-Position-relative-vs-absolute",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -61,6 +64,7 @@
             "done": false,
             "path": "exercises/04-Move-image-behind-the-text",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -71,6 +75,7 @@
             "done": false,
             "path": "exercises/05-Float-example",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -81,6 +86,7 @@
             "done": false,
             "path": "exercises/06-center-content",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -91,6 +97,7 @@
             "done": false,
             "path": "exercises/07-Sidebar",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -101,6 +108,7 @@
             "done": false,
             "path": "exercises/08-Split-Screen-in-three",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -111,6 +119,7 @@
             "done": false,
             "path": "exercises/09-Beautify",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -121,6 +130,7 @@
             "done": false,
             "path": "exercises/09-Before-and-After",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -131,6 +141,7 @@
             "done": false,
             "path": "exercises/09.2-Calendar-icon",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -141,6 +152,7 @@
             "done": false,
             "path": "exercises/10-static-layout",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false

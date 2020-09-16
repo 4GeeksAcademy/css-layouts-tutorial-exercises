@@ -12,4 +12,4 @@ Use the z-index rule to send the image to the back.
 
 Expected result:
 
-![04-Move-image-behind-the-text](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/ham9E91.png?raw=true)
+![04-Move-image-behind-the-text](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/.learn/assets/z-index.png?raw=true)
