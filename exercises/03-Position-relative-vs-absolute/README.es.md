@@ -2,10 +2,11 @@
 
 Esto es muy importante:
 
-Primero, ejecuta el ejercicio y verás etiquetas `<div>` actuando como cajas.
+Primero, ejecuta el ejercicio y verás etiquetas `<div>` actuando como cajas predeterminadas.
 
-1. Aplica la clase `.absolutePositionExample` a `#secondDiv` y compara los resultados.
-2. Retira la clase, y ahora aplica `.relativePositionExample` a `#secondDiv` y compara los resultados.
+1. Aplica la clase `.absolutePositionExample` al `#secondDiv` y compara los resultados.
+
+2. Elimina la clase, y ahora aplica `.relativePositionExample` a `#secondDiv` y compara los resultados.
 
 Pregúntante:
 
