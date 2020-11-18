@@ -6,9 +6,9 @@ En este caso, estamos usando `::before` y `::after` para intentar recrear un íc
 
 ## 📝 Instrucciones
 
-1. Por favor, mueve los elementos ::before y ::after del elemento .calendario de la forma adecuada para que puedan ser colocados como en la imagen
-2. Por favor, mueve el ::before y ::after del elemento `<em>` de la forma adecuada para que puedan ser colocados como en la imagen.
-3. 3. Cambia sus colores también, para que puedan tener el mismo color, y aplique el radio del borde a los elementos `::before` y `::after` del elemento `<em>` para que se vean como un anillo en 2 dimensiones visto desde el frente.
+1. Por favor, mueve los elementos ::before y ::after del elemento .calendar de la forma adecuada para que puedan ser ubicados como en la imagen.
+2. Por favor, mueve el ::before y ::after del elemento `<em>` de la forma adecuada para que puedan ser ubicados como en la imagen.
+3. Cambia sus colores también, para que puedan tener el mismo color, y aplica el border-radius a los elementos `::before` y `::after` del elemento `<em>` para que se vean como un anillo en 2 dimensiones visto desde el frente.
 
 ## 💡 Pista: 
 
