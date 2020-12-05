@@ -1,5 +1,28 @@
 {
+    "port": 3000,
+    "address": "https://ae382506-b665-4095-95c0-9e4154d5435a.ws-us03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "learn.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
     "language": "css",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
     "preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises",
     "title": "Learn CSS Interactively",
@@ -7,5 +30,151 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "session": 2516486353435865000,
+    "exercises": [
+        {
+            "slug": "01-introduction",
+            "title": "01-introduction",
+            "done": false,
+            "path": "exercises/01-introduction",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "02-Display-none",
+            "title": "02-Display-none",
+            "done": false,
+            "path": "exercises/02-Display-none",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "03-Position-relative-vs-absolute",
+            "title": "03-Position-relative-vs-absolute",
+            "done": false,
+            "path": "exercises/03-Position-relative-vs-absolute",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "04-Move-image-behind-the-text",
+            "title": "04-Move-image-behind-the-text",
+            "done": false,
+            "path": "exercises/04-Move-image-behind-the-text",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "05-Float-example",
+            "title": "05-Float-example",
+            "done": false,
+            "path": "exercises/05-Float-example",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "06-center-content",
+            "title": "06-center-content",
+            "done": false,
+            "path": "exercises/06-center-content",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "07-Sidebar",
+            "title": "07-Sidebar",
+            "done": false,
+            "path": "exercises/07-Sidebar",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "08-Split-Screen-in-three",
+            "title": "08-Split-Screen-in-three",
+            "done": false,
+            "path": "exercises/08-Split-Screen-in-three",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09-Beautify",
+            "title": "09-Beautify",
+            "done": false,
+            "path": "exercises/09-Beautify",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09-Before-and-After",
+            "title": "09-Before-and-After",
+            "done": false,
+            "path": "exercises/09-Before-and-After",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09.1-Before-and-After",
+            "title": "09.1-Before-and-After",
+            "done": false,
+            "path": "exercises/09.1-Before-and-After",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "09.2-Calendar-icon",
+            "title": "09.2-Calendar-icon",
+            "done": false,
+            "path": "exercises/09.2-Calendar-icon",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "10-static-layout",
+            "title": "10-static-layout",
+            "done": false,
+            "path": "exercises/10-static-layout",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        }
+    ]
 }
