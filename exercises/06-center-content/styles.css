@@ -1,1 +1,9 @@
-body{background:blue;}
+body {
+	background: blue;
+}
+.contenedor {
+	width: 400px;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+}
