@@ -50,7 +50,7 @@ $ cd css-layouts-tutorial-exercises
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
@@ -74,7 +74,7 @@ Each exercise is a small react application containing the following files:
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)
