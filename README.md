@@ -24,33 +24,41 @@ Welcome to the CSS Layouts interactive tutorial, during this series of exercises
 </ol>
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+</p>
+
 <h2>One click installation:</h2>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
 
-## Manual installation
+## Local installation
 
-1) After downloading the exercise, make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+
 ```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-html
 ```
 
-2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2. Download this particular exercises using learnpack and `cd` into the folder:
+
+```
+$ learnpack download css-layouts-tutorial-exercises
+$ cd css-layouts-tutorial-exercises
+```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ cd ./css-layouts-tutorial-exercises
-$ learnpack run
+$ learnpack start
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Note: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+
 
 ## How are the exercises organized?
 
@@ -66,7 +74,7 @@ Each exercise is a small react application containing the following files:
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)
