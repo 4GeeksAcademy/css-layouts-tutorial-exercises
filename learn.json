@@ -1,11 +1,13 @@
 {
-    "language": "css",
+    "language": "html",
+    "slug": "css-layouts-tutorial-exercises",
     "preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises",
-    "title": "Learn CSS Interactively",
+    "title": "Build Website Layouts with CSS",
     "description": "Learn how to build layouts with an interactive and auto-graded tutorial.",
     "duration": 8,
     "difficulty": "easy",
+    "skills": ["html-layouts","css-styling"],
     "video-solutions": true,
     "graded": true
 }
