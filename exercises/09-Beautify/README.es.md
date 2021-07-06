@@ -6,6 +6,8 @@ Este es un ejemplo de la vida real patrocinado por uno de nuestros estudiantes; 
 
 En este momento, algunos de los divs no se muestran, otros se muestran de manera diferente, etc.
 
+El problema aquí es que faltan algunas etiquetas de apertura y cierre, algunos selectores CSS están duplicados y algunos divs tienen el mismo #id.
+
 ## 📝 Instrucciones
 
-El problema aquí es que faltan algunas etiquetas de apertura y cierre, algunos selectores CSS están duplicados y algunos divs tienen el mismo #id. Arregla el código y haz que se vea como se supone que debe verse.
+ 1. Arregla el código y haz que se vea como se supone que debe verse.

@@ -1,11 +1,12 @@
 # `03` Position Relative vs Absolute
 
 This is very important:
-
-First, run the exercise, you will see both `<div>` tags acting like default boxes.
+ 
+ 1. Preview the exercise, you will see both `<div>` tags acting like default boxes.
 
 1. Apply the class `.absolutePositionExample` to `#secondDiv` and compare results.
-2. Remove that class, and now apply `.relativePositionExample` to `#secondDiv` and compare results.
+
+2. Remove that class, and now apply `.relativePositionExample` to the `#secondDiv` and compare results.
 
 Ask yourself:
 

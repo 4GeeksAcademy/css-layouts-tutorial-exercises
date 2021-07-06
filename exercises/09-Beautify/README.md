@@ -4,8 +4,10 @@ This is a real life example sponsored by one of our students; in this case, he w
 
 ![beautify](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/GxuRWC7.png?raw=true)
 
-Right now, some of the divs don't show, others show in a different way, etc.
+Right now, some of the divs don't show, others show in a different way, etc. 
+
+The problem here is some missing opening and closing tags, some CSS selectors are duplicated and some divs have the same #id.
 
 ## 📝 Instructions
 
-The problem here is some missing opening and closing tags, some CSS selectors are duplicated and some divs have the same #id. Fix the code and make it look how it was supposed to look.
+1. Fix the code and make it look how it was supposed to look.

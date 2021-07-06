@@ -4,12 +4,12 @@
 
 ![Z-index](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/f4hm3qp.png?raw=true)
 
-Elements with a bigger z-index are more up front than elements with lower z-index.
+Elements with a bigger `z-index` are more up front than elements with lower `z-index`.
 
 ## 📝 Instructions
 
-Use the z-index rule to send the image to the back.
+Use the `z-index` rule to send the image to the back.
 
-Expected result:
+## Expected result:
 
 ![04-Move-image-behind-the-text](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/.learn/assets/z-index.png?raw=true)
