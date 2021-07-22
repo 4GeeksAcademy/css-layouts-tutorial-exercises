@@ -9,5 +9,10 @@
     "difficulty": "easy",
     "skills": ["html-layouts","css-styling"],
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "config": {
+        "editor": {
+            "version": "1.0.68"
+        }
+    }
 }
