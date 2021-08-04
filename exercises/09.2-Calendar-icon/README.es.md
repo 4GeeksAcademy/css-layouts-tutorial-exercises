@@ -2,7 +2,7 @@
 
 En este caso, estamos usando `::before` y `::after` para intentar recrear un ícono de calendario como este:
 
-![Calendar Icon](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/AlDLXvy.png?raw=true)
+![Calendar Icon](../../.learn/assets/AlDLXvy.png?raw=true)
 
 ## 📝 Instrucciones
 

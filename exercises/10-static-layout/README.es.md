@@ -8,4 +8,4 @@ No cambies nada en el HTML.
 
 ## Resultado esperado:
 
-![Static Layout](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/0B62fyP.png?raw=true)
+![Static Layout](../../.learn/assets/0B62fyP.png?raw=true)

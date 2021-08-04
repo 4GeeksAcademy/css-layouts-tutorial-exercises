@@ -6,4 +6,4 @@ Please wrap this content into a box with `400px` of `width`, then center the box
 
 ## Expected result:
 
-![Center content](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/XX6daZ3.png?raw=true)
+![Center content](../../.learn/assets/XX6daZ3.png?raw=true)
