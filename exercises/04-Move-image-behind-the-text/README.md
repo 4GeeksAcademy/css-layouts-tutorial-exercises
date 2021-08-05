@@ -12,4 +12,4 @@ Use the `z-index` rule to send the image to the back.
 
 ## Expected result:
 
-![04-Move-image-behind-the-text](../../master/.learn/assets/z-index.png?raw=true)
+![04-Move-image-behind-the-text](../../.learn/assets/z-index.png?raw=true)
