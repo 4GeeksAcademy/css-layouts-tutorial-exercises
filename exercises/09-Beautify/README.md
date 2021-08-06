@@ -2,7 +2,7 @@
 
 This is a real life example sponsored by one of our students; in this case, he was trying to make his website look like this:
 
-![beautify](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/GxuRWC7.png?raw=true)
+![beautify](../../.learn/assets/GxuRWC7.png?raw=true)
 
 Right now, some of the divs don't show, others show in a different way, etc. 
 

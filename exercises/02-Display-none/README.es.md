@@ -12,4 +12,4 @@
 
 ## Resultado esperado:
 
-![02-Display-none](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/ccOZ42Q.png?raw=true)
+![02-Display-none](../../.learn/assets/ccOZ42Q.png?raw=true)

@@ -4,7 +4,7 @@
 
 Use `float` to place the image like this:
 
-![float example](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/GWK2xA2.png?raw=true)
+![float example](../../.learn/assets/GWK2xA2.png?raw=true)
 
 ## :bulb: Hint:
 

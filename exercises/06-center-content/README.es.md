@@ -6,4 +6,4 @@ Por favor, coloca este contenido dentro de una caja con `400px` de ancho(`width`
 
 ## Resultado esperado:
 
-![Centrar contenido](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/XX6daZ3.png?raw=true)
+![Centrar contenido](../../.learn/assets/XX6daZ3.png?raw=true)

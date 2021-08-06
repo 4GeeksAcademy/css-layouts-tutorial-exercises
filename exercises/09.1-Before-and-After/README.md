@@ -10,4 +10,4 @@ In this case, we are using the `::before` selector to create a triangle arrow on
 
 ## Expected result:
 
-![Before and After](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/BKz8ozg.png?raw=true)
+![Before and After](../../.learn/assets/BKz8ozg.png?raw=true)

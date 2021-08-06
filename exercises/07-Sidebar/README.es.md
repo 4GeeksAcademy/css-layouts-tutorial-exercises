@@ -4,7 +4,7 @@ Para replicar una sidebar, todo lo que tienes que hacer es colocar 2 cajas en la
 
 Crea una barra lateral a la izquierda y un contenido principal, como esto:
 
-![Sidebar](https://github.com/4GeeksAcademy/layouts-exercises/blob/master/.learn/assets/69N2q6G.png?raw=true)
+![Sidebar](../../.learn/assets/69N2q6G.png?raw=true)
 
 ## 💡 Pista:
 
