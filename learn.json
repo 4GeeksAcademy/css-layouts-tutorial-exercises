@@ -11,6 +11,7 @@
     "video-solutions": true,
     "graded": true,
     "config": {
+        "disableGrading": true,
         "editor": {
             "version": "1.0.69"
         }
