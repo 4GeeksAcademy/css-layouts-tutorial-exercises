@@ -1,6 +1,6 @@
 # `02` Display None
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Hide the first `<h2>` element, but keep the space that it uses (use visibility rule for that).
 
