@@ -13,7 +13,7 @@ Welcome to the CSS Layouts interactive tutorial, during this series of exercises
 3. Float property.
 4. Center Content.
 5. Sidebar Layouts.
-6. Using before and after.
+6. Using `:before` and `:after`.
 
 <h4>Before we start... other related tutorials</h4>
 <ol>
