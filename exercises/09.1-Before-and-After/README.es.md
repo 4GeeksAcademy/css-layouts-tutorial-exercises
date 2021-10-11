@@ -6,8 +6,8 @@ En este caso, estamos usando el selector `::before` para crear una flecha triang
 
 ## 📝 Instrucciones
 
-Usa el selector `::after` para crear otra flecha al otro lado de la h1. Esta nueva flecha tiene que apuntar a la derecha, por supuesto.
+Usa el selector `::after` para crear otra flecha al otro lado de la `h1`. Esta nueva flecha tiene que apuntar a la derecha, por supuesto.
 
-Así es como debería verse el resultado:
+## Así es como debería verse el resultado:
 
 ![Before and After](../../.learn/assets/BKz8ozg.png?raw=true)

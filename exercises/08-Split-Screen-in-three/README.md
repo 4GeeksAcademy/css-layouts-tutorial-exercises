@@ -1,10 +1,10 @@
 # `08` Split Screen in Three
 
-## 📝 Instructions
+## 📝 Instructions:
 
 Use `display: flex` again but now to divide the website in 3 vertical columns with the same size.
 
-## 💡 Hint
+## :pencil: Instructions:
 
 1. Have the three boxes render in the same line.
 
@@ -12,4 +12,4 @@ Use `display: flex` again but now to divide the website in 3 vertical columns wi
 
 ## :bulb: Hint:
 
-The closing tag of any of the 3 sections needs to be right next to the opening tag of the next sibling section; if not, the browser will add a small separation between the two divs.
+The closing tag of any of the 3 sections needs to be right next to the opening tag of the next sibling section; if not, the browser will add a small separation between the two `divs`.

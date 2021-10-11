@@ -6,7 +6,7 @@
 
 Elements with a bigger `z-index` are more up front than elements with lower `z-index`.
 
-## 📝 Instructions
+## 📝 Instructions:
 
 Use the `z-index` rule to send the image to the back.
 
