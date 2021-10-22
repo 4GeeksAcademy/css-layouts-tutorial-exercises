@@ -4,7 +4,7 @@ En este caso, estamos usando `::before` y `::after` para intentar recrear un íc
 
 ![Calendar Icon](../../.learn/assets/AlDLXvy.png?raw=true)
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Por favor, mueve los elementos `::before` y `::after` del elemento .calendar de la forma adecuada para que puedan ser ubicados como en la imagen.
 

@@ -6,8 +6,8 @@ This is a real life example sponsored by one of our students; in this case, he w
 
 Right now, some of the divs don't show, others show in a different way, etc. 
 
-The problem here is some missing opening and closing tags, some CSS selectors are duplicated and some divs have the same #id.
+The problem here is some missing opening and closing tags, some CSS selectors are duplicated and some `div` have the same `#id`.
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Fix the code and make it look how it was supposed to look.
