@@ -6,7 +6,7 @@ En este caso, estamos usando `::before` y `::after` para intentar recrear un íc
 
 ## 📝 Instrucciones:
 
-1. Por favor, mueve los elementos `::before` y `::after` del elemento .calendar de la forma adecuada para que puedan ser ubicados como en la imagen.
+1. Por favor, mueve los elementos `::before` y `::after` del elemento `.calendar` de la forma adecuada para que puedan ser ubicados como en la imagen.
 
 2. Por favor, mueve el `::before` y `::after` del elemento `<em>` de la forma adecuada para que puedan ser ubicados como en la imagen.
 
