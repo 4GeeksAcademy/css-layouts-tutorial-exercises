@@ -6,7 +6,7 @@
 
 Los elementos con un mayor `z-index` están más al frente que aquellos con menor `z-index`.
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 Usa la regla `z-index` para enviar imágenes hacia atrás.
 

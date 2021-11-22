@@ -4,7 +4,7 @@ In this case, we are using the `::before` and `::after` elements to try to recre
 
 ![Calendar Icon](../../.learn/assets/AlDLXvy.png?raw=true)
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Please move the `::before` and `::after` elements of the .calendar element in the proper way so they can be placed just like on the picture.
 
