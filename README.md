@@ -6,7 +6,7 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-Welcome to the CSS Layouts interactive tutorial, during this series of exercises you will learn and practice:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
 1. Display vs Position
 2. Display: Flex property.
@@ -18,6 +18,7 @@ Welcome to the CSS Layouts interactive tutorial, during this series of exercises
 <h4>Before we start... other related tutorials</h4>
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML Forms</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 your are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
@@ -57,7 +58,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 
 ## How are the exercises organized?
