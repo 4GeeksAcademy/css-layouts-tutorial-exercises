@@ -1,4 +1,4 @@
-# CSS Layouts Exercises
+# Ejercicios CSS Layouts 
 
 Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/graphs/contributors) de [4Geeks Academy](http://4geeksacademy.co/)
 
@@ -10,15 +10,19 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ## En este tutorial aprenderás los siguientes conceptos:
 
-
 1. Display vs Position
+
 2. Display: Flex property.
+
 3. Float property.
+
 4. Center Content.
+
 5. Sidebar Layouts.
+
 6. Using `:before` y `:after`.
 
-#### Antes de empezar... hay otros tutoriales 
+#### Antes de empezar... hay otros tutoriales relacionados 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
@@ -28,15 +32,16 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
-## Instalación con un clic
+## Instalación en un clic
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
 
 ## Instalación manual 
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
+1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -59,8 +64,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
-
+Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
@@ -75,7 +79,7 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (codificador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (tutorial de compilación) ✅ (documentación) 📖
-2. [David Hay (haydavid23)](https://github.com/haydavid23), contribución: (tests) ⚠️
-3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribución: (build-tutorial) ✅, Traducción 🌍
+
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests)  ⚠️ 
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!

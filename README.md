@@ -9,10 +9,15 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
 1. Display vs Position
+
 2. Display: Flex property.
+
 3. Float property.
+
 4. Center Content.
+
 5. Sidebar Layouts.
+
 6. Using `:before` and `:after`.
 
 <h4>Before we start... other related tutorials</h4>
@@ -29,13 +34,13 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-<h2>One click installation:</h2>
+## One click installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
 
 ## Local installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -74,9 +79,9 @@ Each exercise is a small react application containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder)  💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 
+(build-tutorial) ✅  (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests)  ⚠️ 
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
