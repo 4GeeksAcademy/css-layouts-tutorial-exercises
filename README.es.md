@@ -1,5 +1,5 @@
 # Ejercicios CSS Layouts 
-
+<!-- hide -->
 Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/graphs/contributors) de [4Geeks Academy](http://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/css-layouts-tutorial-exercises)
@@ -7,7 +7,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 ¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un DM en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
-
+<!-- endhide -->
 ## En este tutorial aprenderás los siguientes conceptos:
 
 1. Display vs Position
@@ -21,7 +21,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 5. Sidebar Layouts.
 
 6. Using `:before` y `:after`.
-
+<!-- hide -->
 #### Antes de empezar... hay otros tutoriales relacionados 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
@@ -32,7 +32,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
-
+<!-- endhide -->
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
 ## Instalación en un clic
