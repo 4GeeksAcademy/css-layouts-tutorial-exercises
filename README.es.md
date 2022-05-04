@@ -1,5 +1,6 @@
-# Ejercicios CSS Layouts 
 <!-- hide -->
+# Ejercicios CSS Layouts 
+
 Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/graphs/contributors) de [4Geeks Academy](http://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/css-layouts-tutorial-exercises)
