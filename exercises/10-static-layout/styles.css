@@ -19,7 +19,9 @@ body {
 	text-align: center;
 	margin: 0;
 }
-
+.wrapper {
+	display: block;
+}
 header,
 nav,
 section {
@@ -35,4 +37,13 @@ header {
 nav,
 section {
 	padding: 100px 0;
+}
+
+nav {
+	width: 30%;
+	align-items: center;
+}
+section {
+	width: 50%;
+	height: 50%;
 }
