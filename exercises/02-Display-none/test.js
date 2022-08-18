@@ -13,7 +13,6 @@ let p = document.querySelectorAll("p");
 let strong = document.querySelectorAll("strong")
 
 // head elements check
-const body = document.querySelector("body");
 const link = document.querySelector("link");
 const title = document.querySelector('title')
 test("You should not change the existing head tag elements", () => {
