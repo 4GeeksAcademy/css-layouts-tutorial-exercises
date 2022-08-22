@@ -6,6 +6,10 @@ Crea una barra lateral a la izquierda y un contenido principal, como esto:
 
 ![Sidebar](../../.learn/assets/69N2q6G.png?raw=true)
 
+## 📝 Instructions:
+1. El `div` padre debe tener un altura (`height`) de `100px`
+2. El `div` del contenido debe tener una anchura (`width`) de `100%`
+
 ## 💡 Pista:
 
 Solo añade o actualiza estilos CSS, no necesitas más HTML.
