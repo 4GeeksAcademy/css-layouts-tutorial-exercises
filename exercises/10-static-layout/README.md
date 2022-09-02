@@ -1,10 +1,13 @@
 # `10` Static Layout 
 
-Apply the necessary styles to .wrapper, `<header>`, `<nav>` and `<section>` to make the website look like this:
+Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` and `<section>` to make the website look like this:
 
 ## 💡 Hint: 
 
-Don't change anything on the HTML.
+- Don't change anything on the HTML.
+- The `section` container has approximately a width of `80%`
+- All gaps between containers are `10px`
+  - For example, there is a `10px` space between the `nav` container and the `section` container, and also between the `section` container and the right side of the page.
 
 ## Expected result:
 
