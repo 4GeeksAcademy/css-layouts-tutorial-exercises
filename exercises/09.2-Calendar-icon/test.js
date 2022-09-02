@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
@@ -9,7 +8,6 @@ jest.dontMock('fs');
 const link = document.querySelector("link");
 const title = document.querySelector('title')
 let p = document.querySelector("p")
-
 
 test("You should not change the existing head tag elements", () => {
     let head = document.querySelector('head')
@@ -33,21 +31,3 @@ test("There should be an em tag inside the p tag", () => {
     expect(em).toBeTruthy()
 })
 
-test("calendar:before and calendar:after should have a position of absolute", () => {
-    document.querySelector(
-        "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-
-    let cssArray = document.styleSheets[0].cssRules;
-
-    let position = ""
-
-    for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === ".calendar::after" || cssArray[i].selectorText === ".calendar::before") {
-            position = cssArray[i].style[position];
-        }
-    }
-
-
-    expect(position).toBe("absolute")
-})
