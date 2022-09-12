@@ -7,13 +7,14 @@
     "description": "Learn how to build layouts with an interactive and auto-graded tutorial.",
     "duration": 8,
     "difficulty": "easy",
-    "skills": ["html-layouts","css-styling"],
+    "skills": [
+        "html-layouts",
+        "css-styling"
+    ],
     "video-solutions": true,
     "graded": true,
-    
-        "disableGrading": true,
-        "editor": {
-            "version": "1.0.73"
-        }
-    
+    "disableGrading": false,
+    "editor": {
+        "version": "1.0.73"
+    }
 }
