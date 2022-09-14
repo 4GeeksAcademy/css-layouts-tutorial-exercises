@@ -1,7 +1,7 @@
 {
     "language": "html",
     "slug": "css-layouts-tutorial-exercises",
-    "preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/preview.png?raw=true",
+    "preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/.learn/assets/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises",
     "title": "Build Website Layouts with CSS",
     "description": "Learn how to build layouts with an interactive and auto-graded tutorial.",
@@ -10,10 +10,10 @@
     "skills": ["html-layouts","css-styling"],
     "video-solutions": true,
     "graded": true,
-    "config": {
+    
         "disableGrading": true,
         "editor": {
-            "version": "1.0.72"
+            "version": "1.0.73"
         }
-    }
+    
 }
