@@ -22,18 +22,6 @@ test("You should not change the existing head tag elements", () => {
     expect(title).toBeTruthy()
 })
 
-test('There should be an h1 tag', () => {
-    let h1 = document.querySelector("h1")
-
-    expect(h1).toBeTruthy()
-})
-
-test('There should be two p tags', () => {
-    let p = document.querySelectorAll("p")
-
-    expect(p.length).toBe(2)
-})
-
 test('There should be a img tag with the id "myImage"', () => {
     let img = document.getElementById("myImage")
 

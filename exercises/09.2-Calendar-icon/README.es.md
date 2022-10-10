@@ -14,4 +14,6 @@ En este caso, estamos usando `::before` y `::after` para intentar recrear un íc
 
 ## 💡 Pista: 
 
-Si no los colocas en `position: absolute`, continuarán ocupando el área/espacio original que estaban ocupando.
++ Si no los colocas en `position: absolute`, continuarán ocupando el área/espacio original que estaban ocupando.
+
++ Este ejercicio no tiene pruebas debido a que se puede llegar a la solución con diferentes valores, por lo que cuando el resultado de tu código se vea similar al ejemplo, puedes pasar al siguiente ejercicio.

@@ -12,6 +12,8 @@ In this case, we are using the `::before` and `::after` elements to try to recre
 
 3. Change their colors as well so they can have the same color, and apply the `border-radius` to the `::before` and `::after` of the `<em>` to make them look like a ring in 2 dimensions seen from the front.
 
-## 💡 Hint: 
+## 💡 Hints: 
 
-If you don't make them `position: absolute`, they will continue occupying the original area/space they were occupying.
++ If you don't make them `position: absolute`, they will continue occupying the original area/space they were occupying.
+
++ This exercises doesn't have tests because the solution can be reached with different values, after your code's result looks similar ot the example, you can go to the next exercise.
