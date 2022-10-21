@@ -2,6 +2,9 @@
 
 Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` and `<section>` to make the website look like this:
 
+## 📝 Instructions:
+1. `.secondWrapper` should be a flex container. You should use `display: flex` for that.
+
 ## 💡 Hint: 
 
 - Don't change anything on the HTML.

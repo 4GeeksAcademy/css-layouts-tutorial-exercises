@@ -1,7 +1,8 @@
 # `10` Layout estático
 
 Aplica los estilos necesarios en el .wrapper, `<header>`, `<nav>` y `<section>` para que la página web se vea así:
-
+## 📝 Instrucciones:
+1. `.secondWrapper` debe ser un contenedor flex. Para esto, necesitas usar `display: flex`.
 ## 💡 Pista: 
 
 - No cambies nada en el HTML.
