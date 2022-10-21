@@ -84,5 +84,5 @@ test('"myDiv" should be align horizontally on the body tag using display flex', 
         }
     }
 
-    expect( (display == "flex" &&  flex == "center") || (marginSolo == "auto") || (marginRight == "auto" && marginLeft == "auto") || (display == "grid" && grid == "center") || (position == "absolute" && (xPL == "50%" && transform == "translate(-50%, 0%)") || (xPR == "50%" && transform == "translate(50%, 0%)"))).toBeTruthy()
+    expect( (display == "flex" &&  flex == "center") || (marginSolo == "auto") || (marginRight == "auto" && marginLeft == "auto") || (display == "grid" && grid == "center") || ((position == "absolute" || position == "fixed") && (xPL == "50%" && transform == "translate(-50%, 0%)") || (xPR == "50%" && transform == "translate(50%, 0%)"))).toBeTruthy()
 })
