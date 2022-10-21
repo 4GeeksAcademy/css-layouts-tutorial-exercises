@@ -49,6 +49,7 @@ test('The wrapper should have the flex property', () => {
     }
     expect(wrapper).toBe("flex");
 })
+
 test('The sidebar should have a grey background', () => {
     document.querySelector(
         "head"
@@ -63,6 +64,7 @@ test('The sidebar should have a grey background', () => {
     }
     expect(sidebar).toBe("grey");
 })
+
 test('The content should have a green background', () => {
     document.querySelector(
         "head"
@@ -77,7 +79,8 @@ test('The content should have a green background', () => {
     }
     expect(content).toBe("green");
 })
-test('The content should have a width of 100%', () => {
+
+test('The content should have a width of 70%', () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -89,5 +92,36 @@ test('The content should have a width of 100%', () => {
             content = cssArray[i].style["width"];
         }
     }
+    expect(content).toBe("70%");
+})
+
+test('The sidebar should have a width of 30%', () => {
+    document.querySelector(
+        "head"
+    ).innerHTML = `<style>${css.toString()}</style>`;
+
+    let cssArray = document.styleSheets[0].cssRules;
+    let content = "";
+    for (let i = 0; i < cssArray.length; i++) {
+        if (cssArray[i].selectorText === "#sidebar") {
+            content = cssArray[i].style["width"];
+        }
+    }
+    expect(content).toBe("30%");
+})
+
+test('The wrapper should have a width of 100%', () => {
+    document.querySelector(
+        "head"
+    ).innerHTML = `<style>${css.toString()}</style>`;
+
+    let cssArray = document.styleSheets[0].cssRules;
+    let content = "";
+    for (let i = 0; i < cssArray.length; i++) {
+        if (cssArray[i].selectorText === "#wrapper") {
+            content = cssArray[i].style["width"];
+        }
+    }
     expect(content).toBe("100%");
 })
+
