@@ -48,14 +48,41 @@ test('"myDiv" should be align horizontally on the body tag using display flex', 
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    let body1 = "";
-    let body2 = "";
+    let display = "";
+    let flex = "";
+
+    let marginSolo = "";
+
+    let marginRight = "";
+    let marginLeft = "";
+
+    let grid = "";
+
+    let position = "";
+    let xPL = "";
+    let xPR = "";
+    let transform = "";
+
     for (let i = 0; i < cssArray.length; i++) {
         if (cssArray[i].selectorText === "body") {
-            body1 = cssArray[i].style["display"];
-            body2 = cssArray[i].style["justify-content"];
+            display = cssArray[i].style["display"];
+            flex = cssArray[i].style["justify-content"];
+
+            grid = cssArray[i].style["place-items"]
+        }
+        
+        if (cssArray[i].selectorText == ".myDiv") {
+            marginSolo = cssArray[i].style["margin"];
+
+            marginRight = cssArray[i].style["margin-right"];
+            marginLeft = cssArray[i].style["margin-left"];
+
+            position = cssArray[i].style["position"];
+            xPL = cssArray[i].style["left"];
+            xPR = cssArray[i].style["right"];
+            transform = cssArray[i].style["transform"]; 
         }
     }
-    expect(body1).toBe("flex");
-    expect(body2).toBe("center");
+
+    expect( (display == "flex" &&  flex == "center") || (marginSolo == "auto") || (marginRight == "auto" && marginLeft == "auto") || (display == "grid" && grid == "center") || (position == "absolute" && (xPL == "50%" && transform == "translate(-50%, 0%)") || (xPR == "50%" && transform == "translate(50%, 0%)"))).toBeTruthy()
 })
