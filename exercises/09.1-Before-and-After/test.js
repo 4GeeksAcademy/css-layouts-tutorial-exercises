@@ -83,8 +83,8 @@ test("h1::after should have a border-left instead of border-right of 45px solid 
     let borderLeft = "";
     for (let i = 0; i < cssArray.length; i++) {
         if (cssArray[i].selectorText === "h1::after") {
-            borderLeft = cssArray[i].style["margin-left"];
+            borderLeft = cssArray[i].style["border-left"];
         }
     }
-    expect(borderLeft).toBe("20px");
+    expect(borderLeft).toBe("45px solid blue");
 })
