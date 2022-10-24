@@ -10,4 +10,8 @@ El problema aquí es que faltan algunas etiquetas de apertura y cierre, algunos 
 
 ## 📝 Instrucciones:
 
- 1. Arregla el código y haz que se vea como se supone que debe verse.
+1. Arregla el código y haz que se vea como se supone que debe verse.
+
+## 💡 Pista:
+
++ El nombre de los siguientes id's deben seguir el mismo patrón (`div1`, `div2`, `div3`, `div4`, ..., `div6`)

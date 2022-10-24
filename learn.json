@@ -11,10 +11,8 @@
     "videoSolutions": false,
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
-    
-        "disableGrading": true,
-        "editor": {
-            "version": "1.0.73"
-        }
-    
+    "disableGrading": false,
+    "editor": {
+        "version": "1.0.73"
+    }
 }

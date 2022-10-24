@@ -1,0 +1,6 @@
+#myImage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1; /* Any number below 0 works */
+}

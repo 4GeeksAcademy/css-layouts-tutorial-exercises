@@ -13,3 +13,7 @@ Pregúntante:
  **¿Cuál ha sido la diferencia?** 
 
 La posición relative es relativa a la posición inicial del elemento, absolute ignora la posición inicial completamente.
+
+## 💡 Pista:
+
++ Este ejercicio no tiene pruebas, una vez completado continua con el siguiente.

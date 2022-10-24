@@ -8,4 +8,4 @@ Usa `float` para colocar la imagen así:
 
 ## 💡 Pista:
 
-Probablemente tendrás que usar `margin-left` para dejar el espacio correspondiente entre el texto y la imagen.
+Probablemente tendrás que usar `margin-right` para dejar el espacio correspondiente entre el texto y la imagen.

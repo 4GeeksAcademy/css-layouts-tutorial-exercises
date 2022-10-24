@@ -11,3 +11,7 @@ The problem here is some missing opening and closing tags, some CSS selectors ar
 ## 📝 Instructions:
 
 1. Fix the code and make it look how it was supposed to look.
+
+## 💡 Hint:
+
++ The name of the next id's should follow the pattern (`div1`, `div2`, `div3`, `div4`, ..., `div6`)
