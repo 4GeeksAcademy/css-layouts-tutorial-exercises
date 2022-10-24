@@ -1,9 +1,10 @@
-body{
-    background:blue;
-    display: flex;
-    justify-content: center;
+body {
+	background: blue;
+	display: flex;
+	justify-content: center;
 }
 
-.myDiv{
-    width: 400px;
+.myDiv {
+	background: grey;
+	width: 400px;
 }

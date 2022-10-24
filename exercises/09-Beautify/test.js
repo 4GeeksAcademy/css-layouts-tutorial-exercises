@@ -30,44 +30,46 @@ let div3 = document.querySelector("#div3")
 let div4 = document.querySelector("#div4")
 let div5 = document.querySelector("#div5")
 let div6 = document.querySelector("#div6")
+let strong = document.querySelectorAll("strong")
 
 test("There should be 6 div elements in total", () => {
     expect(div.length).toEqual(6)
 })
+
 test("div tags should be in descending order according to their id | div1 > div2 > ... > div6", () => {
     for(let i = 0; i < 6; i++){
         expect(div[i].id).toBe(`div${i+1}`)
     }
 })
 
-test('div1 should exist', () => {
+test('The id "div1" should exist', () => {
     expect(div1).toBeTruthy()
 })
 
-test('div2 should exist', () => {
+test('The id "div2" should exist', () => {
     expect(div2).toBeTruthy()
 })
 
-test('div3 should exist', () => {
+test('The id "div3" should exist', () => {
     expect(div3).toBeTruthy()
 })
 
-test('div4 should exist', () => {
+test('The id "div4" should exist', () => {
     expect(div4).toBeTruthy()
 })
 
-test('div5 should exist', () => {
+test('The id "div5" should exist', () => {
     expect(div5).toBeTruthy()
 })
 
-test('div6 should exist', () => {
+test('The id "div6" should exist', () => {
     expect(div6).toBeTruthy()
 })
 
-let strong = document.querySelectorAll("strong")
 test('There should be 6 strong tags', () => {
     expect(strong.length).toEqual(6)
 })
+
 test('The strong tags should be within their corresponding div containers', () => {
     for(let i = 0; i < 6; i++){
         expect(strong[i].parentNode.id).toBe(`div${i+1}`)
@@ -91,6 +93,7 @@ test('div1 should have a red background', () => {
     }
     expect(background).toBe("red");
 })
+
 test('div5 should have a red background', () => {
     document.querySelector(
         "head"
@@ -105,6 +108,7 @@ test('div5 should have a red background', () => {
     }
     expect(background).toBe("red");
 })
+
 test('div4 should have a blue background', () => {
     document.querySelector(
         "head"
@@ -119,6 +123,7 @@ test('div4 should have a blue background', () => {
     }
     expect(background).toBe("blue");
 })
+
 test('div2 should have a blue background', () => {
     document.querySelector(
         "head"
