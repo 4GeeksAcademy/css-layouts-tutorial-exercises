@@ -8,7 +8,8 @@
     "duration": 8,
     "difficulty": "easy",
     "skills": ["html-layouts","css-styling"],
-    "video-solutions": true,
+    "videoSolutions": false,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     
         "disableGrading": true,
