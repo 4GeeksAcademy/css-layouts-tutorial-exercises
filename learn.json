@@ -9,6 +9,7 @@
     "difficulty": "easy",
     "skills": ["html-layouts","css-styling"],
     "videoSolutions": false,
+    "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     "disableGrading": false,
