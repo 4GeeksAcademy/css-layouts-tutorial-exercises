@@ -32,7 +32,7 @@ let div5 = document.querySelector("#div5")
 let div6 = document.querySelector("#div6")
 let strong = document.querySelectorAll("strong")
 
-test("There should be 6 div elements in total", () => {
+test("There should be exactly 6 div elements in total, no more, no less", () => {
     expect(div.length).toEqual(6)
 })
 
