@@ -33,7 +33,7 @@ let div6 = document.querySelector("#div6")
 let strong = document.querySelectorAll("strong")
 
 test("There should be at least 6 div elements", () => {
-    expect(div.length).toBeGreaterThan(6)
+    expect(div.length).toBeGreaterThan(5)
 })
 
 test("div tags should be in descending order according to their id | div1 > div2 > ... > div6", () => {
