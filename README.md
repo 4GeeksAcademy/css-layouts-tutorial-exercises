@@ -68,7 +68,7 @@ $ learnpack start
 ```
 <!-- endhide -->
 
-Note: The exercises have automatic grading but its very rigid and strict, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and strict. My recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## How are the exercises organized?
 
