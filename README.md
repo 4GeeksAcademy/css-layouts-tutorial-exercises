@@ -40,7 +40,7 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 ## One click installation:
 
-You can open these exercises in just a few seconds by cliking: [Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) or [Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
+You can open these exercises in just a few seconds by cliking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
 
 ## Local installation
 
