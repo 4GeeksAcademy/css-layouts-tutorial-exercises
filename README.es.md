@@ -38,7 +38,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 ## Instalación en un clic
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
 
 ## Instalación manual 
 
