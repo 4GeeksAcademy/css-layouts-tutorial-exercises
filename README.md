@@ -7,8 +7,11 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. 
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
 <!-- endhide -->
+
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/README.es.md) :es:*
+
 ## You'll be learning the following concepts:
 
 1. Display vs Position
@@ -29,18 +32,20 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML Forms</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 you are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
-Complete selection of autograded CSS exercises, anyone interested in learning CSS!
+Complete selection of autograded CSS exercises, for anyone interested in learning CSS!
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## One click installation:
+## One click installation (recommended):
 
-You can open these exercises in just a few seconds by cliking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation
 
@@ -58,7 +63,7 @@ $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
 
@@ -68,8 +73,6 @@ $ learnpack start
 ```
 <!-- endhide -->
 
-Note: The exercises have automatic grading but its very rigid and strict, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
-
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
@@ -78,6 +81,8 @@ Each exercise is a small react application containing the following files:
 2. **index.html:** your HTML code goes here.
 3. **README.md:** contains exercise instructions.
 4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 ## Contributors
 
