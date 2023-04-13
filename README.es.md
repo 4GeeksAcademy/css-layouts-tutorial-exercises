@@ -23,6 +23,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 6. Using `:before` y `:after`.
 <!-- hide -->
+
 #### Antes de empezar... hay otros tutoriales relacionados 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
@@ -36,9 +37,11 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 <!-- endhide -->
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
-## Instalación en un clic
+## Instalación en un clic (recomendado)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git)
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente; si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación manual 
 
@@ -56,7 +59,7 @@ $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
 
-Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
+> Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
 3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo bc.json:
 
@@ -65,8 +68,6 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
-
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
@@ -74,6 +75,8 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 1. **index.js:** representa el archivo de entrada para toda la aplicación.
 2. **README.md:** contiene las instrucciones de los ejercicios.
 3. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
+
+> Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
 
 ## Colaboradores
  
