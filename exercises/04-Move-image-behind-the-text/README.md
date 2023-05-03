@@ -1,6 +1,6 @@
 # `04` Move the image behind the text
 
-`Z-index` is similar to the "Bring To Front" feature of MS PowerPoint:
+`z-index` is similar to the "Bring To Front" feature of MS PowerPoint:
 
 ![Z-index](../../.learn/assets/f4hm3qp.png?raw=true)
 

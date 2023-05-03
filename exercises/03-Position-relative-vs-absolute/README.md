@@ -12,8 +12,8 @@ Ask yourself:
 
 **What was the difference?**
 
-The relative position is relative to the beginning position of the element, the absolute ignores the beginning position completely.
+The `relative` position is relative to the beginning position of the element, the `absolute` ignores the beginning position completely.
 
 ## 💡 Hint:
 
-+ This exercise doesn't have any tests, go to the next one after you finish it with the instructions.
++ This exercise doesn't have any tests, go to the next one after you finish with the instructions.

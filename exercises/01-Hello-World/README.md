@@ -2,14 +2,14 @@
 
 During this lesson you will learn:
 
-1. Display vs Position
+1. Display vs Position.
 
-2. Display: Flex property
+2. Display: Flex property.
 
-3. Float property
+3. Float property.
 
-4. Center Content
+4. How to center content.
 
-5. Sidebar Layouts
+5. Sidebar layouts.
 
-6. Using before and after
+6. Using `:before` and `:after`.

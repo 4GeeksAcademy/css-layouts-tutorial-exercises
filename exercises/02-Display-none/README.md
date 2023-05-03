@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Hide the first `<h2>` element, but keep the space that it uses (use visibility rule for that).
+1. Hide the first `<h2>` element, but keep the space that it uses (use the visibility rule for that).
 
 2. Now hide the second `<h2>` but this time use `display:none;` to also release the area/space that it was using (the bottom content should move up).
 

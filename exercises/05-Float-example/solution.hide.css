@@ -1,5 +1,5 @@
 #myImage {
 	max-width: 250px;
 	float: left;
-	margin-right: 4px; /* Cannot be less than or equal to zero */
+	margin-right: 4px;
 }

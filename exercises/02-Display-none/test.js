@@ -15,7 +15,7 @@ let strong = document.querySelectorAll("strong")
 // head elements check
 const link = document.querySelector("link");
 const title = document.querySelector('title')
-test("You should not change the existing head tag elements", () => {
+test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
@@ -29,11 +29,11 @@ test("You should not change the existing head tag elements", () => {
 })
 
 // check elements to be modified by user
-test("There should only be two h2 tags", () => {
+test("There should only be two <h2> tags", () => {
     expect(h2s.length).toEqual(2)
 })
 
-test("The first h2 should be hidden using the visibility property", () => {
+test("The first <h2> should be hidden using the visibility property", () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -47,7 +47,7 @@ test("The first h2 should be hidden using the visibility property", () => {
     }
     expect(firstH2).toBe('hidden');
 })
-test("The second h2 should have a display property of none", () => {
+test("The second <h2> should have a display property of none", () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -61,14 +61,14 @@ test("The second h2 should have a display property of none", () => {
     }
     expect(secondH2).toBe('none');
 })
-test("There should be a ul tag", () => {
+test("There should be a <ul> tag", () => {
     expect(ul).toBeTruthy();
 })
-test("There should be exactly 3 li tags", () => {
+test("There should be exactly 3 <li> tags", () => {
     expect(li.length).toEqual(3);
 })
 
-test("Each li tag should be displayed as inline", () => {
+test("Each <li> tag should be displayed as inline", () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -83,14 +83,14 @@ test("Each li tag should be displayed as inline", () => {
     expect(li).toBe('inline');
 })
 
-test("There should be two p tags", () => {
+test("There should be two <p> tags", () => {
     expect(p.length).toEqual(2);
 })
-test("There should be two strong tags", () => {
+test("There should be two <strong> tags", () => {
     expect(strong.length).toEqual(2);
 })
 
-test("Each strong tag should be displayed as block elements", () => {
+test("Each <strong> tag should be displayed as block elements", () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
