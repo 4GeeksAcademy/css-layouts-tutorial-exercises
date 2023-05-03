@@ -1,4 +1,4 @@
-# `09` beautify
+# `09` Beautify
 
 This is a real life example sponsored by one of our students; in this case, he was trying to make his website look like this:
 
