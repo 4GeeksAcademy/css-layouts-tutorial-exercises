@@ -16,4 +16,4 @@ The relative position is relative to the beginning position of the element, the 
 
 ## 💡 Hint:
 
-+ This exercise doesn't have any tests, go to the next one after you finish it with the instructions.
++ This exercise doesn't have any tests, go to the next one after you finish with the instructions.
