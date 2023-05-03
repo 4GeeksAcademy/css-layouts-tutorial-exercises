@@ -12,7 +12,7 @@ Ask yourself:
 
 **What was the difference?**
 
-The relative position is relative to the beginning position of the element, the absolute ignores the beginning position completely.
+The `relative` position is relative to the beginning position of the element, the `absolute` ignores the beginning position completely.
 
 ## 💡 Hint:
 
