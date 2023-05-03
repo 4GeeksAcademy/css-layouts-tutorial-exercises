@@ -14,25 +14,25 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 ## You'll be learning the following concepts:
 
-1. Display vs Position
+1. Display vs Position.
 
 2. Display: Flex property.
 
 3. Float property.
 
-4. Center Content.
+4. How to center content.
 
-5. Sidebar Layouts.
+5. Sidebar layouts.
 
 6. Using `:before` and `:after`.
 
 <!-- hide -->
-<h4>Before we start... other related tutorials</h4>
+#### Before we start... other related tutorials</h4>
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML Forms</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 you are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 You are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
 Complete selection of autograded CSS exercises, for anyone interested in learning CSS!
@@ -51,21 +51,21 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
-2. Download this particular exercises using learnpack and `cd` into the folder:
+2. Download these particular exercises using learnpack and `cd` into the folder:
 
-```
+```sh
 $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
 
 > Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
+3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
@@ -75,14 +75,14 @@ $ learnpack start
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **index.css:** your CSS code goes here.
 2. **index.html:** your HTML code goes here.
 3. **README.md:** contains exercise instructions.
 4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
+> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
 
 ## Contributors
 
