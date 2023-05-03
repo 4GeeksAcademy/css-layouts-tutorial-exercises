@@ -70,7 +70,7 @@ test('There should be 6 <strong> tags', () => {
     expect(strong.length).toEqual(6)
 })
 
-test('The <strong> tags should be within their corresponding div containers', () => {
+test('The <strong> tags should be within their corresponding <div> containers', () => {
     for(let i = 0; i < 6; i++){
         expect(strong[i].parentNode.id).toBe(`div${i+1}`)
     }
