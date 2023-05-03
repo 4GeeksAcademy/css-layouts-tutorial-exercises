@@ -28,6 +28,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 #### Antes de empezar... hay otros tutoriales relacionados 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a>← 🔥 Estás aquí</li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprender Bootstrap</a></li>
