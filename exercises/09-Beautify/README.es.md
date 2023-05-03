@@ -1,4 +1,4 @@
-# `09` beautify
+# `09` Beautify
 
 Este es un ejemplo de la vida real patrocinado por uno de nuestros estudiantes; en este caso, estaba tratando de hacer que su sitio web se viera así:
 
