@@ -10,6 +10,8 @@
 
 4. Haz que los elementos `strong` (en negrita) se muestren como elementos de bloque (`display: block;`) (los convertirá en cajas).
 
+hola
+
 ## Resultado esperado:
 
 ![02-Display-none](../../.learn/assets/ccOZ42Q.png?raw=true)
