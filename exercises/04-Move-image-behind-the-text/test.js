@@ -9,7 +9,7 @@ jest.dontMock('fs');
 const link = document.querySelector("link");
 const title = document.querySelector('title')
 
-test("You should not change the existing head tag elements", () => {
+test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
@@ -22,13 +22,13 @@ test("You should not change the existing head tag elements", () => {
     expect(title).toBeTruthy()
 })
 
-test('There should be a img tag with the id "myImage"', () => {
+test('There should be an <img> tag with the id "myImage"', () => {
     let img = document.getElementById("myImage")
 
     expect(img).toBeTruthy()
 })
 
-test("The img tag should have the proper z-index value to be placed ", () => {
+test("The <img> tag should have the proper z-index value to be placed ", () => {
     document.querySelector(
         "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
