@@ -8,11 +8,11 @@ Esto es muy importante:
 
 3. Elimina la clase, y ahora aplica `.relativePositionExample` a `#secondDiv` y compara los resultados.
 
-Pregúntante:
+Pregúntate:
 
  **¿Cuál ha sido la diferencia?** 
 
-La posición relative es relativa a la posición inicial del elemento, absolute ignora la posición inicial completamente.
+La posición `relative` es relativa a la posición inicial del elemento, mientras que `absolute` ignora la posición inicial completamente.
 
 ## 💡 Pista:
 
