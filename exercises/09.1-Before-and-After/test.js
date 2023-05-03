@@ -9,7 +9,7 @@ jest.dontMock('fs');
 const link = document.querySelector("link");
 const title = document.querySelector('title')
 
-test("You should not change the existing head tag elements", () => {
+test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
@@ -21,7 +21,7 @@ test("You should not change the existing head tag elements", () => {
 
     expect(title).toBeTruthy()
 })
-test("There should be an h1 with some content inside", () => {
+test("There should be an <h1> with some content inside", () => {
     let h1 = document.querySelector("h1")
 
     expect(h1).toBeTruthy()
