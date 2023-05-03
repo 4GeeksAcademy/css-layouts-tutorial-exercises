@@ -43,7 +43,7 @@ test("The <img> tag should be placed to the left of the text using the float pro
     expect(myImage).toBe("left");
 })
 
-test('There should be only one p tag', () => {
+test('There should be only one <p> tag', () => {
     let p = document.querySelectorAll("p")
 
     expect(p.length).toBeGreaterThan(0)
