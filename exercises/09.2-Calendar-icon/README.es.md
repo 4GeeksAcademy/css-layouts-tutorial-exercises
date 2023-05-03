@@ -1,4 +1,4 @@
-# `09.2` Ícono de calendario
+# `09.2` Ícono de Calendario
 
 En este caso, estamos usando `::before` y `::after` para intentar recrear un ícono de calendario como este:
 
