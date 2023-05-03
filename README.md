@@ -67,6 +67,7 @@ $ cd css-layouts-tutorial-exercises
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
+
 <!-- endhide -->
 
 ## How are the exercises organized?
