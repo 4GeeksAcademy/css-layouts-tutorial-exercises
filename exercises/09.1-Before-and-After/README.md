@@ -2,7 +2,7 @@
 
 Every HTML has `::before` and `::after` elements that are hidden by default. These elements are very useful when you want to create little details like badges, stickers, etc.
 
-In this case, we are using the `::before` selector to create a triangle arrow on the left of the "Hello World" h1.
+In this case, we are using the `::before` selector to create a triangle arrow on the left of the "Hello World" `<h1>`.
 
 ## 📝 Instructions:
 
