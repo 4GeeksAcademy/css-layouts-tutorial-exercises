@@ -9,7 +9,7 @@ jest.dontMock('fs');
 const link = document.querySelector("link");
 const title = document.querySelector('title')
 
-test("You should not change the existing head tag elements", () => {
+test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
@@ -32,11 +32,11 @@ let div5 = document.querySelector("#div5")
 let div6 = document.querySelector("#div6")
 let strong = document.querySelectorAll("strong")
 
-test("There should be at least 6 div elements", () => {
+test("There should be at least 6 <div> elements", () => {
     expect(div.length).toBeGreaterThan(5)
 })
 
-test("div tags should be in descending order according to their id | div1 > div2 > ... > div6", () => {
+test("<div> tags should be in descending order according to their id | div1 > div2 > ... > div6", () => {
     for(let i = 0; i < 6; i++){
         expect(div[i].id).toBe(`div${i+1}`)
     }
@@ -66,11 +66,11 @@ test('The id "div6" should exist', () => {
     expect(div6).toBeTruthy()
 })
 
-test('There should be 6 strong tags', () => {
+test('There should be 6 <strong> tags', () => {
     expect(strong.length).toEqual(6)
 })
 
-test('The strong tags should be within their corresponding div containers', () => {
+test('The <strong> tags should be within their corresponding div containers', () => {
     for(let i = 0; i < 6; i++){
         expect(strong[i].parentNode.id).toBe(`div${i+1}`)
     }
