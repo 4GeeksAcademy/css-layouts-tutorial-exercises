@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-Use `display: flex` again but now to divide the website in 3 vertical columns with the same size.
+Use `display: flex` again but now to divide the website into 3 vertical columns with the same size.
 
 ## 💡 Hint:
 
