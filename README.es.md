@@ -9,33 +9,31 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un DM en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
 <!-- endhide -->
+
 ## En este tutorial aprenderás los siguientes conceptos:
 
-1. Display vs Position
+1. Display vs Position.
 
-2. Display: Flex property.
+2. La propiedad Display: Flex.
 
-3. Float property.
+3. La propiedad Float.
 
-4. Center Content.
+4. Como centrar contenido.
 
-5. Sidebar Layouts.
+5. Diseños de sidebars.
 
-6. Using `:before` y `:after`.
+6. Usar `:before` y `:after`.
 <!-- hide -->
 
 #### Antes de empezar... hay otros tutoriales relacionados 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a>← 🔥 estás aquí</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a>← 🔥 Estás aquí</li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprender Bootstrap</a></li>
 </ol>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
-<!-- endhide -->
-Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
+
+Una completa selección de ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
 ## Instalación en un clic (recomendado)
 
@@ -47,14 +45,14 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta: 
 
-```
+```sh
 $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
@@ -68,15 +66,18 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
+<!-- endhide -->
+
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
 
-1. **index.js:** representa el archivo de entrada para toda la aplicación.
-2. **README.md:** contiene las instrucciones de los ejercicios.
-3. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
+1. **index.css:** tu codigo CSS va aquí.
+2. **index.html:** tu codigo HTML va aquí.
+3. **README.md:** contiene las instrucciones de los ejercicios.
+4. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
 
-> Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+> Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
 ## Colaboradores
  
