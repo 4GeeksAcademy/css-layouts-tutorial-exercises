@@ -73,8 +73,8 @@ $ learnpack start
 
 Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
 
-1. **index.css:** tu codigo CSS va aquí.
-2. **index.html:** tu codigo HTML va aquí.
+1. **index.css:** tu código CSS va aquí.
+2. **index.html:** tu código HTML va aquí.
 3. **README.md:** contiene las instrucciones de los ejercicios.
 4. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
 
