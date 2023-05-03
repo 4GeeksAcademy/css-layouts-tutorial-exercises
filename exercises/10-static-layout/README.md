@@ -1,6 +1,6 @@
 # `10` Static Layout 
 
-Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` and `<section>` to make the website look like the image:
+Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` and `<section>` to make the website look like the image.
 
 ## 📝 Instructions:
 1. `.secondWrapper` should be a flex container. You should use `display: flex` for that.
