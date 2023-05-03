@@ -18,7 +18,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 3. La propiedad Float.
 
-4. Como centrar contenido.
+4. Cómo centrar contenido.
 
 5. Diseños de sidebars.
 
