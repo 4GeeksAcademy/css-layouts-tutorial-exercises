@@ -1,4 +1,4 @@
-# `09.1` Antes y después
+# `09.1` Before and After
 
 Cada elemento HTML tiene elementos `::before` y `::after` que están ocultos por defecto. Estos elementos son muy útiles cuando se quieren crear pequeños detalles como insignias, pegatinas, etc.
 
