@@ -1,4 +1,4 @@
-# `06` Centrar contenido
+# `06` Center content
 
 Es una buena práctica poner todo el contenido de tu sitio web dentro de un gran contenedor.
 
