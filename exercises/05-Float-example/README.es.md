@@ -1,4 +1,4 @@
-# `05` Ejemplo Float
+# `05` Float example
 
 `float` mueve el elemento a un lado del documento (izquierda o derecha).
 

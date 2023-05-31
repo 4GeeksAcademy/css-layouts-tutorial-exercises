@@ -1,4 +1,4 @@
-# Bienvenid@ a los Layouts
+# Welcome to Layouts
 
 Durante esta lección aprenderás:
 

@@ -1,4 +1,4 @@
-# `08` Dividir la pantalla en tres
+# `08` Split Screen in Three
 
 ## 📝 Instrucciones:
 
