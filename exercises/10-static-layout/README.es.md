@@ -1,4 +1,4 @@
-# `10` Layout Estático
+# `10` Static Layout
 
 Aplica los estilos necesarios en el `.wrapper` `.secondWrapper`, `<header>`, `<nav>` y `<section>` para que la página web se vea como en la imagen.
 
