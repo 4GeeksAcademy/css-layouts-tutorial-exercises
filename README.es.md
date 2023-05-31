@@ -46,23 +46,23 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
-```sh
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta: 
 
-```sh
+```bash
 $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
 
 > Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
-3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo bc.json:
+3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
