@@ -44,14 +44,14 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación manual 
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
+1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el HTML compiler plugin para LearnPack, asegúrate también de tener node.js 14+:
 
 ```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
-2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta: 
+2. Descarga estos ejercicios en particular usando LearnPack y luego `cd` para entrar en la carpeta: 
 
 ```bash
 $ learnpack download css-layouts-tutorial-exercises
@@ -73,8 +73,8 @@ $ learnpack start
 
 Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
 
-1. **index.css:** tu código CSS va aquí.
-2. **index.html:** tu código HTML va aquí.
+1. **index.html:** tu código HTML va aquí.
+2. **styles.css:** tu código CSS va aquí.
 3. **README.md:** contiene las instrucciones de los ejercicios.
 4. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
 
@@ -90,5 +90,5 @@ Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
 
-Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
 
