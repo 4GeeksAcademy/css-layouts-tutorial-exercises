@@ -8,9 +8,9 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
-<!-- endhide -->
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 ## You'll be learning the following concepts:
 
@@ -45,16 +45,16 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearnPack, make sure you also have node.js 14+:
 
-```sh
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
-2. Download these particular exercises using learnpack and `cd` into the folder:
+2. Download these particular exercises using LearnPack and `cd` into the folder:
 
-```sh
+```bash
 $ learnpack download css-layouts-tutorial-exercises
 $ cd css-layouts-tutorial-exercises
 ```
@@ -63,7 +63,7 @@ $ cd css-layouts-tutorial-exercises
 
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
@@ -74,8 +74,8 @@ $ learnpack start
 
 Each exercise is a small React application containing the following files:
 
-1. **index.css:** your CSS code goes here.
-2. **index.html:** your HTML code goes here.
+1. **index.html:** your HTML code goes here.
+2. **styles.css:** your CSS code goes here.
 3. **README.md:** contains exercise instructions.
 4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
