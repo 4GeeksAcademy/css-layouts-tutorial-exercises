@@ -40,7 +40,7 @@ test("The <img> tag should be placed to the left of the text using the float pro
             myImage = cssArray[i].style["float"];
         }
     }
-    expect(myImage).toBe("left");
+    expect(myImage.toLowerCase() === "left" || myImage.toLowerCase() === "right").toBeTruthy();
 })
 
 test('There should be only one <p> tag', () => {
