@@ -10,6 +10,6 @@ Elements with a bigger `z-index` are more up front than elements with lower `z-i
 
 Use the `z-index` rule to send the image to the back.
 
-## Expected result:
+## 💻 Expected result:
 
 ![04-Move-image-behind-the-text](../../.learn/assets/z-index.png?raw=true)
