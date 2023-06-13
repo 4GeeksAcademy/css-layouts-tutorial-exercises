@@ -10,6 +10,6 @@ Los elementos con un mayor `z-index` están más al frente que aquellos con meno
 
 Usa la regla `z-index` para enviar la imagen hacia atrás.
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 ![04-Move-image-behind-the-text](../../.learn/assets/z-index.png?raw=true)
