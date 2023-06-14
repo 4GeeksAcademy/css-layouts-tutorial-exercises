@@ -10,6 +10,6 @@
 
 4. Make `strong` elements display as block elements (that will turn them into boxes).
 
-## Expected result:
+## 💻 Expected result:
 
 ![02-Display-none](../../.learn/assets/ccOZ42Q.png?raw=true)

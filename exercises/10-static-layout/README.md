@@ -15,6 +15,6 @@ Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` a
 
 - This exercise doesn't have tests, compare your result with the image example.
 
-## Expected result:
+## 💻 Expected result:
 
 ![Static Layout](../../.learn/assets/0B62fyP.png?raw=true)

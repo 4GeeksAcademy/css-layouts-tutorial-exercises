@@ -16,6 +16,6 @@ Aplica los estilos necesarios en el `.wrapper` `.secondWrapper`, `<header>`, `<n
 
 - Este ejercicio no tiene pruebas, compara tu resultado con la imagen dada.
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 ![Static Layout](../../.learn/assets/0B62fyP.png?raw=true)

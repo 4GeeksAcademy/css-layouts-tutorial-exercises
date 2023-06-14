@@ -12,6 +12,6 @@
 
 
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 ![02-Display-none](../../.learn/assets/ccOZ42Q.png?raw=true)
