@@ -12,7 +12,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/README.es.md) :es:*
 <!-- endhide -->
 
-## You'll be learning the following concepts:
+## You'll be learning the following test concepts:
 
 1. Display vs Position.
 
