@@ -13,7 +13,7 @@ Apply the necessary styles to `.wrapper`,`.secondWrapper`, `<header>`, `<nav>` a
 
 - All gaps between containers are `10px`. For example, there is a `10px` space between the `nav` container and the `section` container, and also between the `section` container and the right side of the page.
 
-- This exercise doesn't have tests, compare your result with the image example.
+- This exercise does not have tests, compare your result with the image example.
 
 ## 💻 Expected result:
 
