@@ -13,4 +13,4 @@ Create a left sidebar and a main content, just like this:
 
 ## 💡 Hint:
 
-Only add or update the CSS styles, you don't need more HTML.
+Only add or update the CSS styles, you don't need to use more HTML.
