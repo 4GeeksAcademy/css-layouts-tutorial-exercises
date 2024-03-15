@@ -7,7 +7,7 @@ Please wrap this content into a box with `400px` of `width`, then center the box
 ## 📝 Instructions:
 
 1. Create a `div` tag with the class name `"myDiv"`
-2. Using CSS, give your `div` a width of `400px`
+2. Using CSS, give your `div` a width of `400px` and a background `grey`.
 3. Finally, center the `div` horizontally on the `body` tag
 
 ## 💻 Expected result:
