@@ -1,3 +1,5 @@
-#myImage{
-    max-width: 250px;
+#myImage {
+	max-width: 250px;
+	float: left;
+	margin-right: 10px;
 }

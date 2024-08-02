@@ -1,12 +1,24 @@
 body {
 	margin: 0;
 }
+
+#wrapper {
+	display: flex;
+	width: 100%;
+	background-color: gray;
+}
+
 #sectionA {
 	background: blue;
+	width: 33.3333333333333333333333%;
 }
+
 #sectionB {
 	background: red;
+	width: 33.3333333333333333333333%;
 }
+
 #sectionC {
 	background: green;
+	width: 33.3333333333333333333333%;
 }

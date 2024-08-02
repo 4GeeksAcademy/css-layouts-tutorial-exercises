@@ -21,27 +21,44 @@
 	border-bottom-left-radius: 3px;
 }
 
-.calendar::before, .calendar:after{
-	content:'';
-	float:left;
-	width:8px;
-	height:8px;
-	background:#111;
-	z-index:1;
-	border-radius:10px;
-	box-shadow:0 1px 1px #fff;
-	}
-.calendar::before{left:11px;}	
-.calendar::after{right:11px;}
+.calendar::before,
+.calendar:after {
+	position: absolute;
+	content: "";
+	float: left;
+	width: 8px;
+	height: 8px;
+	background: #111;
+	z-index: 1;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px #fff;
+}
+.calendar::before {
+	top: 4px;
+	left: 11px;
+}
+.calendar::after {
+	top: 4px;
+	right: 11px;
+}
 
-.calendar em::before, .calendar em::after{
-	content:'';
+.calendar em::before,
+.calendar em::after {
+	position: absolute;
+	content: "";
 	float: left;
 	margin: 10px;
-	width:4px;
-	height:14px;
-	background:blue;
-	z-index:2;
-	}
-.calendar em::before{left:13px;}	
-.calendar em::after{right:13px;}	
+	width: 4px;
+	height: 14px;
+	background: grey;
+	z-index: 2;
+	border-radius: 5px;
+}
+.calendar em::before {
+	top: -16px;
+	left: 3px;
+}
+.calendar em::after {
+	top: -16px;
+	right: 3px;
+}

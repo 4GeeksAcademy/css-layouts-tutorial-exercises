@@ -27,3 +27,35 @@
 	overflow: hidden;
 	border-radius: 25px;
 }
+
+#div4 {
+	background-color: blue;
+	width: 150px;
+	float: left;
+	height: 100px;
+	padding: 100px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#div5 {
+	background-color: red;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+#div6 {
+	background-color: black;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
