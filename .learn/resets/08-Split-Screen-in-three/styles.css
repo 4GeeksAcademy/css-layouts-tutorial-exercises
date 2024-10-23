@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+#sectionA {
+	background: blue;
+}
+#sectionB {
+	background: red;
+}
+#sectionC {
+	background: green;
+}

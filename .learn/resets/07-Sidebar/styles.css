@@ -1,0 +1,11 @@
+#wrapper {
+    background: grey;
+}
+
+#sidebar {
+    background: blue;
+}
+
+#content {
+    background: yellow;
+}
