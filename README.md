@@ -6,7 +6,7 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/css-layouts-tutorial-exercises)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
-[![Open in Codeanywhere](https://img.shields.io/badge/Open%20in-Codeanywhere-7f3f97)](https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises)
+[![Open in Codeanywhere](https://img.shields.io/badge/Open%20in-Codeanywhere-7f3f97)](https://app.codeanywhere.com/#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises)
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
 
