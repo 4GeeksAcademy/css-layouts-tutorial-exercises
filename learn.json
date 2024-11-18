@@ -1,28 +1,28 @@
 {
-"language": "html",
-"slug": "css-layouts-tutorial-exercises",
-"preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/.learn/assets/preview.png?raw=true",
-"repository": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises",
-"title": {
-    "us": "Build Website Layouts with CSS",
-    "es": "Construye diseños de sitios web con CSS"
-},
-"description": {
-    "us": "Learn how to build layouts with an interactive and auto-graded tutorial.",
-    "es": "Aprende a construir layours con un tutorial interactivo y auto-corregido."
-},
-"duration": 8,
-"difficulty": "easy",
-"skills": ["html-layouts","css-styling"],
-"videoSolutions": false,
-"projectType": "tutorial",
-"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-"graded": true,
-"disableGrading": false,
-"editor": {
-    "version": "4.0.10"
-},
-"telemetry": {
-    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-}
+    "language": "html",
+    "slug": "css-layouts-tutorial-exercises",
+    "preview": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises/blob/master/.learn/assets/preview.png?raw=true",
+    "repository": "https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises",
+    "title": {
+        "us": "Build Website Layouts with CSS",
+        "es": "Construye diseños de sitios web con CSS"
+    },
+    "description": {
+        "us": "Learn how to build layouts with an interactive and auto-graded tutorial. Master CSS properties like display, position, float, and z-index. Understand how to center content, create sidebars, and use pseudo-elements. Enhance your web design skills with practical, auto-graded tutorials.",
+        "es": "Aprende a construir diseños con un tutorial interactivo y auto-corregido. Domina las propiedades CSS como display, position, float y z-index. Entiende cómo centrar contenido, crear barras laterales y usar pseudo-elementos. Mejora tus habilidades de diseño web con tutoriales prácticos y auto-corregidos."
+    },
+    "duration": 8,
+    "difficulty": "easy",
+    "skills": ["html", "css", "html-layouts","css-styling"],
+    "videoSolutions": false,
+    "projectType": "tutorial",
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "graded": true,
+    "disableGrading": false,
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    },
+    "editor": {
+        "version": "4.0.10"
+    }
 }
