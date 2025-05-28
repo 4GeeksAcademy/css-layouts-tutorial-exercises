@@ -1,12 +1,22 @@
 body {
 	margin: 0;
+	display: flex;
 }
 #sectionA {
 	background: blue;
+	display: inline;
+	width: 33%;
+	float: inline-start;
 }
 #sectionB {
 	background: red;
+	display: inline;
+	width: 33%;
+	float: inline;
 }
 #sectionC {
 	background: green;
+	display: inline;
+	width: 33%;
+	float: inline-end;
 }

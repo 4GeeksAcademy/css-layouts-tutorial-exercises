@@ -1,37 +1,5 @@
 /* your code here */
-.wrapper {
-	widht: 100%;
-	position: absolute;
-	align-items: center;
-}
-.secondWrapper {
-	display: flex;
-	position: absolute;
-	width: 100%;
-}
-header {
-	width: 600px;
-	align-items: center;
-	align-content: center;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
 
-nav {
-	width: 20%;
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 100px;
-	font-weight: bold;
-}
-section {
-	width: 80%;
-	height: 100px;
-	margin-right: 10px;
-	font-weight: bold;g
-}
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE
 **************************************/
