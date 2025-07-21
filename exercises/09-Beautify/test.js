@@ -36,11 +36,31 @@ test("There should be at least 6 <div> elements", () => {
     expect(div.length).toBeGreaterThan(5)
 })
 
-test("<div> tags should be in descending order according to their id | div1 > div2 > ... > div6", () => {
-    for(let i = 0; i < 6; i++){
-        expect(div[i].id).toBe(`div${i+1}`)
-    }
-})
+test("The layout should have two columns with correct <div> distribution", () => {
+    const wrapper = document.querySelector(".wrapper");
+    const left = wrapper.querySelector(".left-column");
+    const right = wrapper.querySelector(".right-column");
+
+    expect(left.children[0].id).toBe("div1");
+    expect(left.children[1].id).toBe("div2");
+
+    expect(right.children[0].id).toBe("div3");
+    expect(right.children[1].id).toBe("div4");
+    expect(right.children[2].id).toBe("div5");
+    expect(right.children[3].id).toBe("div6");
+});
+
+
+test("There should be a wrapper with two columns: left-column and right-column", () => {
+    const wrapper = document.querySelector(".wrapper");
+    expect(wrapper).toBeTruthy();
+
+    const left = wrapper.querySelector(".left-column");
+    const right = wrapper.querySelector(".right-column");
+
+    expect(left).toBeTruthy();
+    expect(right).toBeTruthy();
+});
 
 test('The id "div1" should exist', () => {
     expect(div1).toBeTruthy()

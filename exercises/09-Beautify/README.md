@@ -1,27 +1,39 @@
 # `09` Beautify
 
-This is a real-life example sponsored by one of our students; in this case, they were trying to make their website look like this:
+This exercise is based on a real case from one of our students. The original idea was to create a clean layout with two columns: one with large blocks, and another with smaller blocks arranged vertically.
 
-![beautify](../../.learn/assets/09-Beauty.png?raw=true)
+However, the original code **is partially broken**. The HTML and CSS have errors that prevent the layout from displaying correctly.
 
-However, the code contains several errors that prevent it from displaying correctly. Your task is to **fix the HTML and CSS** so that it meets the following technical requirements.
+Your goal is to **fix the HTML and apply Flexbox styles** to achieve the following design.
 
-- Display **6 visible boxes** (`div`), each with a number from 1 to 6 inside a `<strong>` tag.
-- Each box must have a unique `id`: `div1`, `div2`, ..., `div6`.
-- All `div`s must have **exact dimensions** and **specific background colors**.
-- Some boxes must have `border-radius` and custom text color.
+
+![Two-column layout with six rectangular blocks distributed using Flexbox. The left column contains two large blocks stacked vertically: a red box with the text "The Menu" at the top and a blue box with the text "Second Content" below. The right column contains four smaller blocks stacked vertically: a blue box with the text "The Content", a yellow box with the text "The Other Stuff", a red box with the text "Second Content", and a black box with the text "The Extra Stuff". Each block has rounded borders and bold, centered text.](../../.learn/assets/image-layout-beauty.png?raw=true)
 
 
 ## 📝 Instructions:
 
-1. Each `div` must be `150px` wide and `100px` high.
-2. `div1` and `div5` must have a **red background**.
-3. `div2` and `div4` must have a **blue background**.
-4. `div3` must have a **yellow background**.
-5. `div6` must have a **black background**.
-6. `div2`, `div3`, `div5`, and `div6` must have **white text** and `border-radius: 25px`.
-7. `div1` and `div4` must have `border-radius: 50px`.
-8. Each `div` must contain a number from 1 to 6, wrapped in a `<strong>` tag.
+1. All content must be inside a `<div class="wrapper">` container.
+2. Inside `.wrapper`, you should have two columns (`<div class="left-column">` and `<div class="right-column">`).
+3. Create 6 blocks with the following `id`s: `div1` to `div6`.
+4. Place the text content of each one inside a `<strong>` tag, following this distribution:
+
+| ID     | Text to display        | Column           | Position |
+|--------|-----------------------|------------------|----------|
+| div1   | The Menu              | left             | top      |
+| div2   | Second Content        | left             | bottom   |
+| div3   | The Content           | right            | first    |
+| div4   | The Other Stuff       | right            | second   |
+| div5   | Second Content        | right            | third    |
+| div6   | The Extra Stuff       | right            | fourth   |
+
+
+
+### 💡 Tips
+
+- Use `display: flex` on `.wrapper` to create the column layout.
+- Use `flex-direction: column` on `.left-column` and `.right-column`.
+- You can use `gap` to separate the blocks.
+- Make sure the texts are centered using `text-align`, `display: flex`, or `line-height`.
 
 
 ## ⚠️ Important:
