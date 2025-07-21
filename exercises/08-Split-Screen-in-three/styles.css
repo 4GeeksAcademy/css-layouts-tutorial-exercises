@@ -1,12 +1,17 @@
 body {
-	margin: 0;
+  margin: 0;
 }
-#sectionA {
-	background: blue;
+
+.boxA {
+  background: #4682B4; 
+
 }
-#sectionB {
-	background: red;
+
+.boxB {
+  background: #A9A9A9; 
+
 }
-#sectionC {
-	background: green;
+
+.boxC {
+  background: #FFA500; 
 }

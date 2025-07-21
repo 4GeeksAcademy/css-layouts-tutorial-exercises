@@ -22,62 +22,52 @@ test("You should not change the existing <head> tag elements", () => {
     expect(title).toBeTruthy()
 })
 
-test('There should be a <div> element with the id "wrapper"', () => {
-    let wrapper = document.getElementById("wrapper")
-    expect(wrapper).toBeTruthy()
-})
-test('There should be a <div> element with the id "sectionA"', () => {
-    let sectionA = document.getElementById("sectionA")
-    expect(sectionA).toBeTruthy()
-})
-test('There should be a <div> element with the id "sectionB"', () => {
-    let sectionB = document.getElementById("sectionB")
-    expect(sectionB).toBeTruthy()
-})
-test('There should be a <div> element with the id "sectionC"', () => {
-    let sectionC = document.getElementById("sectionC")
-    expect(sectionC).toBeTruthy()
-})
+test('There should be a <div> element with the class "wrapper"', () => {
+    const wrapper = document.querySelector(".wrapper");
+    expect(wrapper).toBeTruthy();
+});
 
-test('SectionA should have a width of 33%', () => {
-    document.querySelector(
-        "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
+test('There should be three <div> elements with classes "boxA", "boxB", and "boxC"', () => {
+    const boxA = document.querySelector(".boxA");
+    const boxB = document.querySelector(".boxB");
+    const boxC = document.querySelector(".boxC");
 
-    let cssArray = document.styleSheets[0].cssRules;
-    let sectionA = "";
-    for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === "#sectionA") {
-            sectionA = cssArray[i].style["width"];
+    expect(boxA).toBeTruthy();
+    expect(boxB).toBeTruthy();
+    expect(boxC).toBeTruthy();
+});
+
+test('The wrapper should have display: flex', () => {
+    document.querySelector("head").innerHTML = `<style>${css}</style>`;
+
+    const cssArray = document.styleSheets[0].cssRules;
+    let display = "";
+
+    for (let rule of cssArray) {
+        if (rule.selectorText === ".wrapper") {
+            display = rule.style["display"];
         }
     }
-    expect(sectionA).toBe("33%");
-})
-test('SectionB should have a width of 33%', () => {
-    document.querySelector(
-        "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray = document.styleSheets[0].cssRules;
-    let sectionB = "";
-    for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === "#sectionB") {
-            sectionB = cssArray[i].style["width"];
+    expect(display).toBe("flex");
+});
+
+test.each([
+    [".boxA", "33.33%"],
+    [".boxB", "33.33%"],
+    [".boxC", "33.33%"]
+])('%s should have a width of 33.33%', (selector, expectedWidth) => {
+    document.querySelector("head").innerHTML = `<style>${css}</style>`;
+
+    const cssArray = document.styleSheets[0].cssRules;
+    let width = "";
+
+    for (let rule of cssArray) {
+        if (rule.selectorText === selector) {
+            width = rule.style["width"];
         }
     }
-    expect(sectionB).toBe("33%");
-})
-test('SectionC should have a width of 33%', () => {
-    document.querySelector(
-        "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray = document.styleSheets[0].cssRules;
-    let sectionC = "";
-    for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === "#sectionC") {
-            sectionC = cssArray[i].style["width"];
-        }
-    }
-    expect(sectionC).toBe("33%");
-})
+    expect(width).toBe(expectedWidth);
+});
+

@@ -1,14 +1,15 @@
-#wrapper {
+.wrapper {
 	display: flex;
-	height: 100px;
 	width: 100%;
-	background: grey;
+	height: 100px;
 }
-#sidebar {
-	background: grey;
+
+.sidebar {
+	background: #999;
 	width: 30%;
 }
-#content {
-	background: green;
+
+.content {
+	background: #2e6833;
 	width: 70%;
 }

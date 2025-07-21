@@ -1,33 +1,38 @@
 # `10` Static Layout
 
-En este ejercicio trabajarás con posicionamiento y distribución estática usando `flexbox` y otras propiedades básicas de CSS. El objetivo es construir un diseño de página simple pero correctamente alineado, donde los elementos principales se distribuyen con márgenes y anchos específicos.
+En este ejercicio practicarás cómo distribuir elementos horizontalmente dentro de un contenedor usando **Flexbox** y otras propiedades fundamentales de CSS.
 
-El HTML ya está estructurado con las siguientes clases y elementos:
+El objetivo es construir una estructura web básica compuesta por un encabezado y dos bloques principales alineados en una misma fila: un menú lateral de navegación y una sección de contenido.
 
-- `.wrapper` (contenedor general)
-- `.secondWrapper` (contenedor de `nav` y `section`)
-- `<header>`
-- `<nav>`
-- `<section>`
+El archivo HTML ya viene preparado y **no debe ser modificado**. Los elementos que vas a estilizar son:
+
+- `.wrapper`: contenedor principal de toda la página.
+- `<header>`: aparece en la parte superior.
+- `.secondWrapper`: contiene los bloques `<nav>` y `<section>` y será el foco principal del layout.
 
 
 ## 📝 Instrucciones:
 
-1. Aplica `display: flex` sobre el contenedor `.secondWrapper` para que sus elementos hijos se dispongan en línea (horizontalmente).
-2. El elemento `<section>` debe ocupar aproximadamente el `80%` del ancho de `.secondWrapper`.
-3. El `<nav>` debe ubicarse a la izquierda del `<section>`.
-4. Asegúrate de que haya un espacio de `10px`:
+1. Aplica `display: flex` al contenedor `.secondWrapper` para que `<nav>` y `<section>` se alineen horizontalmente.
+2. Establece que el `<section>` tenga un ancho de aproximadamente `80%` del contenedor `.secondWrapper`.
+3. Asegúrate de que `<nav>` se muestre a la **izquierda** del `<section>`.
+4. Deja un **espacio de `10px`**:
    - Entre `<nav>` y `<section>`.
-   - Entre `<section>` y el borde derecho del contenedor.
-5. El diseño debe mantenerse estable, sin usar `position: absolute` o `float`.
+   - Entre `<section>` y el borde derecho de `.secondWrapper`.
+5. **No utilices** `position: absolute` ni `float`.
 
-## 💡 Pistas: 
+6. Asegúrate de que el `<header>` ocupe todo el ancho de la página y esté por encima de los bloques principales.
+
+### 💡 Pistas
 
 - No modifiques el archivo HTML.
-- Usa propiedades como `gap`, `margin`, `padding`, `width`, `flex`, etc.
-- Si usas `gap`, asegúrate de que sea aplicado en el contenedor adecuado.
-- Puedes usar colores de fondo temporales para visualizar los bloques mientras trabajas.
-- Este ejercicio no tiene pruebas, compara tu resultado con la imagen dada.
+- Puedes usar `gap: 10px` si lo aplicas correctamente sobre `.secondWrapper`.
+- Si decides usar `margin-right` o `padding`, asegúrate de que la suma de anchos no rompa el layout.
+- Aplica colores de fondo temporales para visualizar la estructura mientras trabajas (luego los puedes quitar).
+- Usa `box-sizing: border-box` si necesitas controlar el comportamiento del ancho y padding.
+
+
+
 
 ## 💻 Resultado esperado:
 

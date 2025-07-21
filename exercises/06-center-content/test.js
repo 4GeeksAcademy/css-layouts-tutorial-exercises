@@ -42,47 +42,57 @@ test('"myDiv" should have a width of 400px', () => {
     expect(myDiv).toBe("400px");
 })
 
-test('"myDiv" should align horizontally on the <body> tag using display flex', () => {
-    document.querySelector(
-        "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
+test('"myDiv" should be centered horizontally using only margin', () => {
+    document.querySelector("head").innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    let display = "";
-    let flex = "";
 
     let marginSolo = "";
-
     let marginRight = "";
     let marginLeft = "";
 
-    let grid = "";
-
+    let display = "";
+    let justifyContent = "";
+    let placeItems = "";
     let position = "";
-    let xPL = "";
-    let xPR = "";
+    let left = "";
+    let right = "";
     let transform = "";
 
     for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === "body") {
-            display = cssArray[i].style["display"];
-            flex = cssArray[i].style["justify-content"];
+        const rule = cssArray[i];
 
-            grid = cssArray[i].style["place-items"]
+        if (rule.selectorText === ".myDiv") {
+            marginSolo = rule.style["margin"];
+            marginRight = rule.style["margin-right"];
+            marginLeft = rule.style["margin-left"];
+            position = rule.style["position"];
+            left = rule.style["left"];
+            right = rule.style["right"];
+            transform = rule.style["transform"];
         }
-        
-        if (cssArray[i].selectorText == ".myDiv") {
-            marginSolo = cssArray[i].style["margin"];
 
-            marginRight = cssArray[i].style["margin-right"];
-            marginLeft = cssArray[i].style["margin-left"];
-
-            position = cssArray[i].style["position"];
-            xPL = cssArray[i].style["left"];
-            xPR = cssArray[i].style["right"];
-            transform = cssArray[i].style["transform"]; 
+        if (rule.selectorText === "body") {
+            display = rule.style["display"];
+            justifyContent = rule.style["justify-content"];
+            placeItems = rule.style["place-items"];
         }
     }
 
-    expect( (display == "flex" &&  flex == "center") || (marginSolo == "auto") || (marginRight == "auto" && marginLeft == "auto") || (display == "grid" && grid == "center") || ((position == "absolute" || position == "fixed") && (xPL == "50%" && transform == "translate(-50%, 0%)") || (xPR == "50%" && transform == "translate(50%, 0%)"))).toBeTruthy()
-})
+    const usesMarginAuto =
+        marginSolo === "auto" ||
+        marginSolo === "0 auto" ||
+        (marginLeft === "auto" && marginRight === "auto");
+
+    const usesDisallowedMethod =
+        display === "flex" ||
+        display === "grid" ||
+        placeItems === "center" ||
+        justifyContent === "center" ||
+        ((position === "absolute" || position === "fixed") &&
+            (left || right) &&
+            transform.includes("translate"));
+
+    expect(usesMarginAuto).toBe(true);
+    expect(usesDisallowedMethod).toBe(false);
+});
