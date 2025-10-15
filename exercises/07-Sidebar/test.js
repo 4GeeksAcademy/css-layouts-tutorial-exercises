@@ -105,7 +105,7 @@ test('The wrapper should have a width of 100%', () => {
     let cssArray = document.styleSheets[0].cssRules;
     let content = "";
     for (let i = 0; i < cssArray.length; i++) {
-        if (cssArray[i].selectorText === "#wrapper") {
+        if (cssArray[i].selectorText === ".wrapper") {
             content = cssArray[i].style["width"];
         }
     }
