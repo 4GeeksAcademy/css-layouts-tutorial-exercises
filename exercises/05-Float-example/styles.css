@@ -1,3 +1,10 @@
-#myImage{
-    max-width: 250px;
+#myImage {
+	float: left;
+	max-width: 250px;
+	margin-right: 0.5cm;
+}
+.myDiv-body{
+    width: 400px;
+    background-color: gray;
+    margin:auto;
 }
