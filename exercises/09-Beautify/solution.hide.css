@@ -23,7 +23,6 @@ body {
 	margin-left: 20px;
 }
 
-
 .common-box {
 	display: flex;
 	justify-content: center;
@@ -32,13 +31,11 @@ body {
 	font-weight: bold;
 }
 
-
 #div1,
 #div2 {
 	width: 300px;
 	height: 300px;
 }
-
 
 #div3,
 #div4,
@@ -49,7 +46,6 @@ body {
 	border-radius: 25px;
 	color: white;
 }
-
 
 #div1 {
 	background-color: red;

@@ -1,17 +1,22 @@
 body {
-  margin: 0;
+	margin: 0;
 }
 
+.wrapper {
+	display: flex;
+	width: 100%;
+}
 .boxA {
-  background: #4682B4; 
-
+	background: #4682b4;
+	width: 33.33%;
 }
 
 .boxB {
-  background: #A9A9A9; 
-
+	background: #a9a9a9;
+	width: 33.33%;
 }
 
 .boxC {
-  background: #FFA500; 
+	background: #ffa500;
+	width: 33.33%;
 }

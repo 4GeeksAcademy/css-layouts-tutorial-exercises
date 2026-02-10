@@ -1,0 +1,43 @@
+body {
+	background: white;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.wrapper {
+	display: block;
+	margin: 20px;
+}
+
+#div1 {
+	background-color: red;
+	width: 150px;
+	height: 100px;
+	padding: 100px; 
+	text-align: center;
+	border-radius: 50px;
+	
+}
+
+#div2 {
+	background-color: blue;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+
+}
+
+#div3 {
+	background-color: yellow;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+
+}
+
