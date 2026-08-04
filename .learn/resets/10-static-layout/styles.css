@@ -30,25 +30,9 @@ section {
 
 header {
 	padding: 10px 0;
-	margin-left: 5px;
-	margin-right: 5px;
 }
 
 nav,
 section {
 	padding: 100px 0;
-}
-
-.secondWrapper {
-	display: flex;
-	gap: 10px;
-}
-.secondWrapper section {
-	width: 80%;
-	margin-right: 5px;
-}
-.secondWrapper nav {
-	float: left;
-	width: 20%;
-	margin-left: 5px;
 }

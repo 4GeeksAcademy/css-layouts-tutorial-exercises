@@ -5,29 +5,37 @@ body {
 }
 
 .wrapper {
-	display: block;
+	display: flex;
 	margin: 20px;
+	gap: 20px;
 }
-
+.left-column {
+	flex-direction: column;
+}
+.right-column {
+	flex-direction: column;
+}
 #div1 {
 	background-color: red;
 	width: 150px;
 	height: 100px;
-	padding: 100px; 
-	text-align: center;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 50px;
-	
 }
 
 #div2 {
 	background-color: blue;
 	width: 150px;
 	height: 100px;
-	padding: 25px;
+	padding: 100px;
 	color: white;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 25px;
-
 }
 
 #div3 {
@@ -36,8 +44,40 @@ body {
 	height: 100px;
 	padding: 25px;
 	color: white;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 25px;
-
 }
-
+#div4 {
+	background-color: blue;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+#div5 {
+	background-color: red;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+}
+#div6 {
+	background-color: black;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+}

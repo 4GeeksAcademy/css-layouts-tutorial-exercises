@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.boxA {
+  background: #4682B4; 
+
+}
+
+.boxB {
+  background: #A9A9A9; 
+
+}
+
+.boxC {
+  background: #FFA500; 
+}
